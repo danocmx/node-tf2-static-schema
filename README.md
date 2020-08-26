@@ -1,5 +1,8 @@
 # TF2 Schema Up2Date
 This package keeps TF2 schema files up to date in the temp folder.
+I've created this package due to the other option being running everything locally for your app which seems illogical due to lack of updates TF2 receives.
+
+This is a work in progress, bear in mind the API can change.
 
 ## Instalation
 If you're only using `schema.static`, install like:
@@ -12,6 +15,8 @@ npm install tf2-schema-up2date
 ```
 
 ## Usage
+
+- Alternatively you can use any static file by `require('tf2-schema-up2date/temp/yourfile.json'`.
 
 `schema.static` includes:
 
