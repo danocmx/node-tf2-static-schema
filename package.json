@@ -1,0 +1,19 @@
+{
+  "name": "tf2-schema-up2date",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "update": "node ./scripts/update"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {},
+  "optionalDependencies": {
+    "axios": "^0.20.0",
+    "fs-extra": "^9.0.1",
+    "vdf": "0.0.2"
+  }
+}
