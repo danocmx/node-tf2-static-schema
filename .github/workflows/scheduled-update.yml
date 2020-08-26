@@ -1,0 +1,25 @@
+name: 'Update schema'
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+
+jobs:
+  update_schema:
+    runs-on: ubuntu-latest
+    steps:
+      - shell: bash
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - run: npm install
+      - run: npm run update "$STEAM_API_KEY"
+        env:
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
+      - run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+          git commit -m "Schema update."
+          git push
