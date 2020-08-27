@@ -13,7 +13,7 @@ function getDir() {
 if (require.main === module) {
 	update(
 		getAPIKey(),
-		getDir(),
+		{ dir: getDir(), log: console.log },
 	)
 		.catch(console.error);
 }

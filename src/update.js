@@ -21,7 +21,7 @@ function sortSchema(data) {
 	};
 }
 
-async function update(apiKey, dir) {
+async function update(apiKey, { dir, log }) {
 	if (!apiKey) throw new Error('API key is missing.');
 
 	const tempDirExists = await fs.exists(dir);
@@ -30,7 +30,7 @@ async function update(apiKey, dir) {
     const response = await fetchAll(apiKey);
 	const data = sortSchema(response);
 
-	console.log('Fetched the data.');
+	log('Fetched the data.');
 
 	const files = Object.keys(data);
 	for (let i = 0; i < files.length; i++) {
@@ -41,7 +41,7 @@ async function update(apiKey, dir) {
 			encoding: 'utf-8',
         });
         
-		console.log(`Wrote ${file}.json!`);
+		log(`Wrote ${file}.json!`);
 	}
 };
 
