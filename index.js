@@ -10,6 +10,8 @@ const getPaintKits = () => require('./temp/paint-kits.json');
 const getParts = () => require('./temp/parts.json');
 const getQualities = () => require('./temp/qualities.json');
 const getSets = () => require('./temp/sets.json');
+const getKillstreaks = () => require('./temp/killstreaks.json');
+const getWears = () => require('./temp/wears.json');
 
 exports.static = {
     getAttributes,
@@ -23,7 +25,9 @@ exports.static = {
     getPaintKits,
     getParts,
     getQualities,
-    getSets
+    getSets,
+    getKillstreaks,
+    getWears,
 }
 
 /**
