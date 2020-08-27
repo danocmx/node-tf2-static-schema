@@ -1,6 +1,6 @@
 const path = require('path');
 
-const { update } = require('../src');
+const { update } = require('../core');
 
 function getAPIKey() {
 	return process.argv[2];
