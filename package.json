@@ -1,14 +1,14 @@
 {
-  "name": "tf2-schema-up2date",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "name": "tf2-static-schema",
+  "version": "0.1.1",
+  "description": "Updates TF2 schema into temporary files that you can lazy load in your app.",
+  "main": "./index.js",
   "scripts": {
     "update": "node ./scripts/update"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "danocmx",
+  "license": "MIT",
   "devDependencies": {},
   "dependencies": {},
   "optionalDependencies": {
