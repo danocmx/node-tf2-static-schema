@@ -28,7 +28,9 @@ function getDir() {
 	return path.join(__dirname, '../', './temp');
 }
 
-module.exports = async function update(apiKey) {
+module.exports = update;
+
+async function update(apiKey) {
 	if (!apiKey) throw new Error('API key is missing.');
 
 	const dir = getDir();
