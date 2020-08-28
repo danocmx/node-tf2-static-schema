@@ -24,8 +24,8 @@ function sortSchema(data) {
 async function update(apiKey, { dir, log = console.log } = {}) {
 	if (!apiKey) throw new Error('API key is missing.');
 
-	const tempDirExists = await fs.exists(dir);
-	if (!tempDirExists) await fs.mkdir(dir);
+	const staticDirExists = await fs.exists(dir);
+	if (!staticDirExists) await fs.mkdir(dir);
 
     const response = await fetchAll(apiKey);
 	const data = sortSchema(response);

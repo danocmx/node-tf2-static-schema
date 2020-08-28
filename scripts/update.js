@@ -7,7 +7,7 @@ function getAPIKey() {
 }
 
 function getDir() {
-	return path.join(__dirname, '../', './temp');
+	return path.join(__dirname, '../', './static');
 }
 
 if (require.main === module) {

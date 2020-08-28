@@ -1,8 +1,12 @@
 # TF2 Static Schema
 This package keeps TF2 schema files up to date in the temp folder.
-I've created this package due to the other option being running everything locally for your app which seems illogical due to lack of updates TF2 receives.
 
 This is a work in progress, bear in mind the API can change.
+
+## Reason I've created this
+- Unrealibity of steam servers
+- Lack of TF2 updates making it illogical to update locally every X hour
+- Loading just what you want into your app!
 
 ## Instalation
 If you're only using `schema.static`, install like:
