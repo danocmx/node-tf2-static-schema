@@ -45,12 +45,20 @@ function parseItems({ items }) {
     for (let i = 0; i < items.length; i++) {
         const item = items[i];
 
-        const itemName = item.item_name;
+        const itemName = selectName(item);
         const defindex = item.defindex;
         
+        // Only defindex because it's unique.
         itemNames[defindex] = itemName;
-        itemNames[itemName] = defindex;
     }
 
     return itemNames;
+}
+
+function selectName(item) {
+    if (item.item_name === 'Kit') return item.item_type_name;
+    // Due to BackpackTF naming colisions.
+    if (item.defindex === 20003) return 'Professional Killstreak Fabricator';
+    if (item.defindex === 20002) return 'Specialized Killstreak Fabricator';
+    return item.item_name;
 }
