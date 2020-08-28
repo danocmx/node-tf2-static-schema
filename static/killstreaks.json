@@ -1,8 +1,8 @@
 {
 	"None": 0,
 	"Killstreak": 1,
-	"'Specialized Killstreak'": 2,
-	"'Professional Killstreak'": 3,
+	"Specialized Killstreak": 2,
+	"Professional Killstreak": 3,
 
 	"0": "None",
 	"1": "Killstreak",
