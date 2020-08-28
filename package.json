@@ -2,7 +2,7 @@
   "name": "tf2-static-schema",
   "version": "1.0.1",
   "description": "Updates TF2 schema into temporary files that you can lazy load in your app.",
-  "main": "./",
+  "main": "./index",
   "scripts": {
     "update": "node ./scripts/update",
     "semantic-release": "semantic-release"
