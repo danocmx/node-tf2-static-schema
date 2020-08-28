@@ -4,16 +4,24 @@
   "description": "Updates TF2 schema into temporary files that you can lazy load in your app.",
   "main": "./",
   "scripts": {
-    "update": "node ./scripts/update"
+    "update": "node ./scripts/update",
+    "semantic-release": "semantic-release"
   },
   "keywords": [],
   "author": "danocmx",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "@semantic-release/git": "^9.0.0",
+    "semantic-release": "^17.1.1"
+  },
   "dependencies": {},
   "optionalDependencies": {
     "axios": "^0.20.0",
     "fs-extra": "^9.0.1",
     "vdf": "0.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danocmx/node-tf2-static-schema.git"
   }
 }

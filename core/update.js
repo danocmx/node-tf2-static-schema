@@ -1,7 +1,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 
-const { fetchAll } = require('./fetch-all');
+const fetchAll = require('./fetch-all');
 
 function sortSchema(data) {
 	const { itemsGame, paintKits, itemNames } = data;
