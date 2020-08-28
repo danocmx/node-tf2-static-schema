@@ -9,36 +9,33 @@ If you're only using `schema.static`, install like:
 ```
 npm install --no-optional tf2-static-schema
 ```
-If you're either doing `schema.getUpdate` temp files or `schema.getNet` just do:
+If you want to use core of the package (updating static files or fetching data yourself) do: 
 ```
 npm install tf2-static-schema
 ```
 
 ## Usage
+- All parts are required through node resolver:
 
-- Alternatively you can use any static file by `require('tf2-static-schema/temp/yourfile.json'`.
+`require('tf2-static-schema/static/*')`, * can be:
 
-`schema.static` includes:
+`attributes`,
+`effects`,
+`item-names`,
+`items`,
+`items-game`,
+`levels`,
+`lookups`,
+`origins`,
+`paint-kits`,
+`parts`,
+`qualities`,
+`sets`,
 
-`schema.static.getAttributes`,
-`schema.static.getEffects`,
-`schema.static.getItemNames`,
-`schema.static.getItems`,
-`schema.static.getItemsGame`,
-`schema.static.getLevels`,
-`schema.static.getLookups`,
-`schema.static.getOrigins`,
-`schema.static.getPaintKits`,
-`schema.static.getParts`,
-`schema.static.getQualities`,
-`schema.static.getSets`,
-
-Which you use to lazy load the data so you don't actually have all of them.
-
-`schema.getNet`:
-Lazy loads the net modules with Axios and VDF:
+`require('tf2-static-schema/core')` provides:
 
 `fetchAll` - fetches all schemas
+`update` - updates static files
 `getItemsGame` - fetches game metadata
 `getPaintKits` - fetchs paint kits
 `getSchemaItems` - fetches the items with API Key
