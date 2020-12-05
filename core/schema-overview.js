@@ -78,7 +78,7 @@ function parseOrigins({ originNames }) {
 		const origin = originNames[i];
 
 		const originName = origin.name;
-		const originId = origin.id;
+		const originId = origin.origin;
 
 		origins[originId] = originName;
 		origins[originName] = originId;
