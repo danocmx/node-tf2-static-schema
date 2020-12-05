@@ -11,7 +11,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm install
+      - run: npm ci
       - shell: bash
         env:
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
@@ -21,5 +21,9 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add -A
-          git commit -m "feat: schema update!"
+          git commit -m "feat: schema update"
           git push origin master
+      - env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release
