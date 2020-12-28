@@ -65,6 +65,16 @@ function parseParticles(result) {
 		const particleName = particle.name;
 
 		effects[particleId] = particleName;
+
+		if (effects[particleName]) {
+			/**
+			 * Always use the first variant of team effects.
+			 * 
+			 * eg. Showstopper, Arcane Assistance, Reindoonicorn Rancher
+			 */
+			continue;
+		}
+
 		effects[particleName] = particleId;
 	}
 
