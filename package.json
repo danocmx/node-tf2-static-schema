@@ -16,7 +16,7 @@
   },
   "dependencies": {},
   "optionalDependencies": {
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "fs-extra": "^9.0.1",
     "vdf": "0.0.2"
   },
