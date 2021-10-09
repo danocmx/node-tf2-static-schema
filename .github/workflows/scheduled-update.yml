@@ -2,6 +2,7 @@ name: 'Update schema'
 on:
   schedule:
     - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
   update_schema:
@@ -13,6 +14,7 @@ jobs:
           node-version: 12
       - run: npm ci
       - shell: bash
+        name: "Fetch new schema from steam."
         env:
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
         run: npm run update "$STEAM_API_KEY"
@@ -23,7 +25,9 @@ jobs:
           git add -A
           git commit -m "feat: schema update"
           git push origin master
+        name: "Update schema files in the repository."
       - env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
+        name: "Run semantic-release."
