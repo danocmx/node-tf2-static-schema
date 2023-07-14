@@ -18,6 +18,10 @@ jobs:
         env:
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
         run: npm run update "$STEAM_API_KEY"
+
+      - run: npm run prettier
+        name: "Prettify static files."
+
       - run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"

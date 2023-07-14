@@ -5,13 +5,15 @@
   "main": "./index",
   "scripts": {
     "update": "node ./scripts/update",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prettier": "npx prettier -w \"./static/*.json\""
   },
   "keywords": [],
   "author": "danocmx",
   "license": "MIT",
   "devDependencies": {
     "@semantic-release/git": "^9.0.0",
+    "prettier": "^3.0.0",
     "semantic-release": "^21.0.1"
   },
   "optionalDependencies": {
