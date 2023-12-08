@@ -17,7 +17,7 @@
     "semantic-release": "^21.0.1"
   },
   "optionalDependencies": {
-    "axios": "^0.21.1",
+    "axios": "^1.6.0",
     "fs-extra": "^9.0.1",
     "vdf": "0.0.2"
   },
