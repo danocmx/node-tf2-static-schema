@@ -1,6 +1,6 @@
 {
   "name": "tf2-static-schema",
-  "version": "1.63.0",
+  "version": "1.64.0",
   "description": "Updates TF2 schema into temporary files that you can lazy load in your app.",
   "main": "./index",
   "scripts": {
