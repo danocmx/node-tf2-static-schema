@@ -5605,8 +5605,10 @@
 	"798": {
 		"name": "energy buff dmg taken multiplier",
 		"attribute_class": "energy_buff_dmg_taken_multiplier",
+		"description_string": "+%s1% damage vulnerability while active",
+		"description_format": "value_is_percentage",
 		"effect_type": "negative",
-		"hidden": true,
+		"hidden": false,
 		"stored_as_integer": false
 	},
 	"799": {
