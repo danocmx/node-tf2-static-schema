@@ -6808,6 +6808,105 @@
 		"hidden": true,
 		"stored_as_integer": false
 	},
+	"2069": {
+		"name": "freaky fair kritz potion",
+		"attribute_class": "freaky_fair_kritz_potion",
+		"description_string": "Kritz Potion",
+		"description_format": "value_is_additive",
+		"effect_type": "positive",
+		"hidden": false,
+		"stored_as_integer": false
+	},
+	"2070": {
+		"name": "freaky fair uber potion",
+		"attribute_class": "freaky_fair_uber_potion",
+		"description_string": "Über Potion",
+		"description_format": "value_is_additive",
+		"effect_type": "positive",
+		"hidden": false,
+		"stored_as_integer": false
+	},
+	"2071": {
+		"name": "freaky fair giant potion",
+		"attribute_class": "freaky_fair_giant_potion",
+		"description_string": "Giant Potion",
+		"description_format": "value_is_additive",
+		"effect_type": "positive",
+		"hidden": false,
+		"stored_as_integer": false
+	},
+	"2072": {
+		"name": "freaky fair buster potion",
+		"attribute_class": "freaky_fair_buster_potion",
+		"description_string": "Pumpkin Buster Potion",
+		"description_format": "value_is_additive",
+		"effect_type": "positive",
+		"hidden": false,
+		"stored_as_integer": false
+	},
+	"2073": {
+		"name": "freaky fair healing potion",
+		"attribute_class": "freaky_fair_healing_potion",
+		"description_string": "Healing Potion",
+		"description_format": "value_is_additive",
+		"effect_type": "positive",
+		"hidden": false,
+		"stored_as_integer": false
+	},
+	"2074": {
+		"name": "freaky fair ghost potion",
+		"attribute_class": "freaky_fair_ghost_potion",
+		"description_string": "Ghost Potion",
+		"description_format": "value_is_additive",
+		"effect_type": "positive",
+		"hidden": false,
+		"stored_as_integer": false
+	},
+	"2075": {
+		"name": "freaky fair ammo potion",
+		"attribute_class": "freaky_fair_ammo_potion",
+		"description_string": "Refill Ammo Potion",
+		"description_format": "value_is_additive",
+		"effect_type": "positive",
+		"hidden": false,
+		"stored_as_integer": false
+	},
+	"2076": {
+		"name": "freaky fair rtd potion",
+		"attribute_class": "freaky_fair_rtd_potion",
+		"description_string": "`Roll The Dice` Potion",
+		"description_format": "value_is_additive",
+		"effect_type": "positive",
+		"hidden": false,
+		"stored_as_integer": false
+	},
+	"2077": {
+		"name": "freaky fair relentless potion",
+		"attribute_class": "freaky_fair_relentless_potion",
+		"description_string": "Relentless Potion",
+		"description_format": "value_is_additive",
+		"effect_type": "positive",
+		"hidden": false,
+		"stored_as_integer": false
+	},
+	"2078": {
+		"name": "freaky fair extra attrib1",
+		"attribute_class": "freaky_fair_extra_attrib1",
+		"description_string": "Extra Freaky Fair Attrib 1",
+		"description_format": "value_is_additive",
+		"effect_type": "positive",
+		"hidden": false,
+		"stored_as_integer": false
+	},
+	"2079": {
+		"name": "freaky fair extra attrib2",
+		"attribute_class": "freaky_fair_extra_attrib2",
+		"description_string": "Extra Freaky Fair Attrib 2",
+		"description_format": "value_is_additive",
+		"effect_type": "positive",
+		"hidden": false,
+		"stored_as_integer": false
+	},
 	"3000": {
 		"name": "item slot criteria 1",
 		"attribute_class": "item_slot_criteria",
