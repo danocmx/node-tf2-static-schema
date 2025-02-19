@@ -768,7 +768,7 @@
 	"88": {
 		"name": "max pipebombs increased",
 		"attribute_class": "add_max_pipebombs",
-		"description_string": "+%s1 max pipebombs out",
+		"description_string": "+%s1 max stickybombs out",
 		"description_format": "value_is_additive",
 		"effect_type": "positive",
 		"hidden": false,
@@ -777,7 +777,7 @@
 	"89": {
 		"name": "max pipebombs decreased",
 		"attribute_class": "add_max_pipebombs",
-		"description_string": "%s1 max pipebombs out",
+		"description_string": "%s1 max stickybombs out",
 		"description_format": "value_is_additive",
 		"effect_type": "negative",
 		"hidden": false,
