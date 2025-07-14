@@ -12,5 +12,5 @@ module.exports = {
     getItemsGame,
     getPaintKits,
     getSchemaItems,
-    getSchemaOverview
-}
+    getSchemaOverview,
+};

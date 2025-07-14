@@ -4,13 +4,13 @@ const { getSchemaItems } = require('./schema-items');
 const { getSchemaOverview } = require('./schema-overview');
 
 module.exports = async function fetchAll(apiKey) {
-	const [itemsGame, paintKits, schemaItems, overview] = await Promise.all([
-		getItemsGame(),
-		getPaintKits(),
-		getSchemaItems(apiKey),
-		getSchemaOverview(apiKey),
+    const [itemsGame, paintKits, schemaItems, overview] = await Promise.all([
+        getItemsGame(),
+        getPaintKits(),
+        getSchemaItems(apiKey),
+        getSchemaOverview(apiKey),
     ]);
-    
+
     /**
      * Sorted into objects that will be saved as JSON files.
      */
@@ -29,5 +29,5 @@ module.exports = async function fetchAll(apiKey) {
 
         itemNames: schemaItems.itemNames,
         items: schemaItems.items,
-    }
-}
+    };
+};

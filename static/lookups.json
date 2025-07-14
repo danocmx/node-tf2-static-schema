@@ -1,33 +1,54 @@
 {
-	"SPELL: set item tint RGB": [
-		{ "index": 2, "string": "#TF_HalloweenSpell_Paint_1_Attr" },
-		{ "index": 0, "string": "#TF_HalloweenSpell_Paint_2_Attr" },
-		{ "index": 1, "string": "#TF_HalloweenSpell_Paint_3_Attr" },
-		{ "index": 3, "string": "#TF_HalloweenSpell_Paint_4_Attr" },
-		{ "index": 4, "string": "#TF_HalloweenSpell_Paint_5_Attr" }
-	],
-	"SPELL: set Halloween footstep type": [
-		{ "index": 1, "string": "#TF_HalloweenSpell_Footprints_1_Attr" },
-		{
-			"index": 8421376,
-			"string": "#TF_HalloweenSpell_Footprints_8421376_Attr"
-		},
-		{
-			"index": 3100495,
-			"string": "#TF_HalloweenSpell_Footprints_3100495_Attr"
-		},
-		{
-			"index": 5322826,
-			"string": "#TF_HalloweenSpell_Footprints_5322826_Attr"
-		},
-		{
-			"index": 13595446,
-			"string": "#TF_HalloweenSpell_Footprints_13595446_Attr"
-		},
-		{
-			"index": 8208497,
-			"string": "#TF_HalloweenSpell_Footprints_8208497_Attr"
-		},
-		{ "index": 2, "string": "#TF_HalloweenSpell_Footprints_2_Attr" }
-	]
+    "SPELL: set item tint RGB": [
+        {
+            "index": 2,
+            "string": "#TF_HalloweenSpell_Paint_1_Attr"
+        },
+        {
+            "index": 0,
+            "string": "#TF_HalloweenSpell_Paint_2_Attr"
+        },
+        {
+            "index": 1,
+            "string": "#TF_HalloweenSpell_Paint_3_Attr"
+        },
+        {
+            "index": 3,
+            "string": "#TF_HalloweenSpell_Paint_4_Attr"
+        },
+        {
+            "index": 4,
+            "string": "#TF_HalloweenSpell_Paint_5_Attr"
+        }
+    ],
+    "SPELL: set Halloween footstep type": [
+        {
+            "index": 1,
+            "string": "#TF_HalloweenSpell_Footprints_1_Attr"
+        },
+        {
+            "index": 8421376,
+            "string": "#TF_HalloweenSpell_Footprints_8421376_Attr"
+        },
+        {
+            "index": 3100495,
+            "string": "#TF_HalloweenSpell_Footprints_3100495_Attr"
+        },
+        {
+            "index": 5322826,
+            "string": "#TF_HalloweenSpell_Footprints_5322826_Attr"
+        },
+        {
+            "index": 13595446,
+            "string": "#TF_HalloweenSpell_Footprints_13595446_Attr"
+        },
+        {
+            "index": 8208497,
+            "string": "#TF_HalloweenSpell_Footprints_8208497_Attr"
+        },
+        {
+            "index": 2,
+            "string": "#TF_HalloweenSpell_Footprints_2_Attr"
+        }
+    ]
 }

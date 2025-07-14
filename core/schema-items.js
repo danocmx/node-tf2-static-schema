@@ -1,6 +1,9 @@
 const axios = require('axios');
 
-exports.getSchemaItems = function getSchemaItems(apiKey, { next = 0, itemNames = {}, items = [] } = {}) {    
+exports.getSchemaItems = function getSchemaItems(
+    apiKey,
+    { next = 0, itemNames = {}, items = [] } = {}
+) {
     return axios({
         method: 'GET',
         url: 'https://api.steampowered.com/IEconItems_440/GetSchemaItems/v0001',
@@ -8,36 +11,39 @@ exports.getSchemaItems = function getSchemaItems(apiKey, { next = 0, itemNames =
             key: apiKey,
             start: next,
             language: 'English',
+        },
+    }).then(({ data: { result } }) => {
+        if (result.status !== 1) {
+            return Promise.reject(
+                new Error(
+                    `Status: ${result.status}, Message: ${result.message}`
+                )
+            );
         }
-    })
-        .then(({ data: { result } }) => {
-            if (result.status !== 1) {
-                return Promise.reject(
-                    new Error(
-                        `Status: ${result.status}, Message: ${result.message}`
-                    )
-                );
-            }
 
-            /**
-             * Full includes the full data.
-             */
-            items.push(...result.items);
-            /**
-             * Includes shorter one only for names.
-             */
-            Object.assign(itemNames, parseItems(result));
+        /**
+         * Full includes the full data.
+         */
+        items.push(...result.items);
+        /**
+         * Includes shorter one only for names.
+         */
+        Object.assign(itemNames, parseItems(result));
 
-            if (result.next) {
-                return exports.getSchemaItems(apiKey, { next: result.next, itemNames, items});
-            }
-            
-            return {
+        if (result.next) {
+            return exports.getSchemaItems(apiKey, {
+                next: result.next,
                 itemNames,
                 items,
-            }
-        })
-}
+            });
+        }
+
+        return {
+            itemNames,
+            items,
+        };
+    });
+};
 
 function parseItems({ items }) {
     const itemNames = {};
@@ -47,7 +53,7 @@ function parseItems({ items }) {
 
         const itemName = selectName(item);
         const defindex = item.defindex;
-        
+
         // Only defindex because it's unique.
         itemNames[defindex] = itemName;
     }
