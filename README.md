@@ -19,28 +19,30 @@ npm install tf2-static-schema
 ```
 
 ## Usage
-- All parts are required through node resolver:
+All parts are required through node resolver.
 
-`require('tf2-static-schema/static/*')`, * can be:
-
-`attributes`,
-`effects`,
-`item-names`,
-`items`,
-`items-game`,
-`levels`,
-`lookups`,
-`origins`,
-`paint-kits`,
-`parts`,
-`qualities`,
-`sets`,
+`require('tf2-static-schema/static/*')`, * can be one of:
+- `attributes`
+- `effects`
+- `item-names`
+- `items`
+- `items-game`
+- `levels`
+- `lookups`
+- `origins`
+- `paint-kits`
+- `parts`
+- `qualities`
+- `sets`
 
 `require('tf2-static-schema/core')` provides:
 
-`fetchAll` - fetches all schemas
-`update` - updates static files
-`getItemsGame` - fetches game metadata
-`getPaintKits` - fetchs paint kits
-`getSchemaItems` - fetches the items with API Key
-`getSchemaOverview` - fetches the overview with API Key
+- `fetchAll` - fetches all schemas
+- `update` - updates static files
+- `getItemsGame` - fetches game metadata
+- `getPaintKits` - fetchs paint kits
+- `getSchemaItems` - fetches the items with API Key
+- `getSchemaOverview` - fetches the overview with API Key
+
+This package is used as a sister package to [tf2-item-format](https://github.com/danocmx/node-tf2-item-format), a
+parsing/builder library for different TF2 item formats used across the community.
