@@ -17,7 +17,7 @@
     "semantic-release": "^24.0.0"
   },
   "optionalDependencies": {
-    "axios": "^1.6.0",
+    "axios": "^1.10.0",
     "vdf": "0.0.2"
   },
   "repository": {
