@@ -14,7 +14,7 @@
   "devDependencies": {
     "@semantic-release/git": "^9.0.0",
     "prettier": "^3.0.0",
-    "semantic-release": "^24.0.0"
+    "semantic-release": "^25.0.2"
   },
   "optionalDependencies": {
     "axios": "^1.10.0",
