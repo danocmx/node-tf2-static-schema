@@ -21,6 +21,7 @@ jobs:
           node-version: 24
       - name: Update name to support OIDC
         run: npm install -g npm@latest
+      - run: npm config list
       - run: npm ci
       - env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
