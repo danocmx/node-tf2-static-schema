@@ -5,17 +5,23 @@ on:
     branches:
       - master
 
+permissions:
+  contents: read
+
 jobs:
   release:
     runs-on: ubuntu-latest
     permissions:
       id-token: write
+      contents: write
+      issues: write
+      pull-requests: write
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 24
-      - run: npm install
+      - run: npm ci
       - env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
