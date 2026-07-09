@@ -199873,12 +199873,6 @@
             "item_description": "#TF_sum26_beachcombers_Desc",
             "equip_region": "hat",
             "drop_type": "drop",
-            "visuals": {
-                "player_bodygroups": {
-                    "hat": "1",
-                    "headphones": "1"
-                }
-            },
             "image_inventory": "backpack/workshop/player/items/all_class/sum26_beachcombers/sum26_beachcombers",
             "capabilities": {
                 "can_craft_count": "1",
@@ -199897,6 +199891,30 @@
                 "pyro": "1",
                 "spy": "1",
                 "engineer": "1"
+            },
+            "visuals": {
+                "player_bodygroups": {
+                    "hat": "1",
+                    "headphones": "1"
+                },
+                "styles": {
+                    "0": {
+                        "model_player_per_class": {
+                            "basename": "models/workshop/player/items/all_class/sum26_beachcombers/sum26_beachcombers_%s.mdl"
+                        },
+                        "skin_red": "0",
+                        "skin_blu": "1",
+                        "name": "#TF_sum26_beachcombers_style1"
+                    },
+                    "1": {
+                        "model_player_per_class": {
+                            "basename": "models/workshop/player/items/all_class/sum26_beachcombers_style2/sum26_beachcombers_style2_%s.mdl"
+                        },
+                        "skin_red": "0",
+                        "skin_blu": "1",
+                        "name": "#TF_sum26_beachcombers_style2"
+                    }
+                }
             },
             "mouse_pressed_sound": "ui/item_hat_pickup.wav",
             "drop_sound": "ui/item_hat_drop.wav"

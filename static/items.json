@@ -528346,16 +528346,16 @@
         },
         "styles": [
             {
-                "name": "Specialized"
+                "name": "Specialized Issue"
             },
             {
-                "name": "Standard"
+                "name": "Standard Issue"
             },
             {
-                "name": "Military"
+                "name": "Military Issue"
             },
             {
-                "name": "Hearing"
+                "name": "Hearing Issue"
             }
         ],
         "attributes": [
@@ -528448,6 +528448,14 @@
             "can_killstreakify": true,
             "can_consume": true
         },
+        "styles": [
+            {
+                "name": "Botanical"
+            },
+            {
+                "name": "Tropical"
+            }
+        ],
         "attributes": [
             {
                 "name": "kill eater score type",
@@ -528637,7 +528645,7 @@
         "defindex": 31612,
         "item_class": "tf_wearable",
         "item_type_name": "Shirt",
-        "item_name": "Tzar Athlete",
+        "item_name": "Tsar Athlete",
         "proper_name": false,
         "item_slot": "misc",
         "model_player": "models/workshop/player/items/heavy/sum26_tzar_athlete/sum26_tzar_athlete.mdl",
@@ -528854,8 +528862,8 @@
         "image_inventory": "backpack/workshop/player/items/pyro/sum26_pyros_overalls/sum26_pyros_overalls",
         "min_ilevel": 1,
         "max_ilevel": 100,
-        "image_url": "http://media.steampowered.com/apps/440/icons/sum26_pyros_overalls.6b00c690a44def7f88770a56095ffcef367eff88.png",
-        "image_url_large": "http://media.steampowered.com/apps/440/icons/sum26_pyros_overalls_large.bea15a2e3804fabe88983a541382f03e1c417dbb.png",
+        "image_url": "http://media.steampowered.com/apps/440/icons/sum26_pyros_overalls.b889f093fdfe2598c37da4d8ce17c8452cb0e15f.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/sum26_pyros_overalls_large.c2de8a5cee51f0bb8addbaafd0d1cbf3e5429ad2.png",
         "drop_type": "none",
         "craft_class": "",
         "craft_material_type": "hat",
