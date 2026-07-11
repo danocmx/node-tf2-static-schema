@@ -195771,19 +195771,19 @@
                         "model_player": "models/workshop/player/items/heavy/hwn2024_strigoi_stare_style1/hwn2024_strigoi_stare_style1.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_hwn2024_strigoi_stare_style1"
+                        "name": "#TF_style0"
                     },
                     "1": {
                         "model_player": "models/workshop/player/items/heavy/hwn2024_strigoi_stare_style2/hwn2024_strigoi_stare_style2.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_hwn2024_strigoi_stare_style2"
+                        "name": "#TF_style1"
                     },
                     "2": {
                         "model_player": "models/workshop/player/items/heavy/hwn2024_strigoi_stare_style3/hwn2024_strigoi_stare_style3.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_hwn2024_strigoi_stare_style3"
+                        "name": "#TF_style2"
                     }
                 }
             }
@@ -197627,20 +197627,20 @@
                         "model_player": "models/workshop/player/items/spy/sum25_le_sapeur/sum25_le_sapeur.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_sum25_le_sapeur_style1"
+                        "name": "#TF_style0"
                     },
                     "1": {
                         "model_player": "models/workshop/player/items/spy/sum25_le_sapeur_style2/sum25_le_sapeur_style2.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_sum25_le_sapeur_style2",
+                        "name": "#TF_style1",
                         "use_smoke_particle_effect": "0"
                     },
                     "2": {
                         "model_player": "models/workshop/player/items/spy/sum25_le_sapeur_style3/sum25_le_sapeur_style3.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_sum25_le_sapeur_style3",
+                        "name": "#TF_style2",
                         "use_smoke_particle_effect": "0"
                     }
                 }
@@ -197871,25 +197871,25 @@
                         "model_player": "models/workshop/player/items/engineer/hwn2025_heat_shield/hwn2025_heat_shield.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_hwn2025_heat_shield_style1"
+                        "name": "#TF_style0"
                     },
                     "1": {
                         "model_player": "models/workshop/player/items/engineer/hwn2025_heat_shield_style2/hwn2025_heat_shield_style2.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_hwn2025_heat_shield_style2"
+                        "name": "#TF_style1"
                     },
                     "2": {
                         "model_player": "models/workshop/player/items/engineer/hwn2025_heat_shield_style3/hwn2025_heat_shield_style3.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_hwn2025_heat_shield_style3"
+                        "name": "#TF_style2"
                     },
                     "3": {
                         "model_player": "models/workshop/player/items/engineer/hwn2025_heat_shield_style4/hwn2025_heat_shield_style4.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_hwn2025_heat_shield_style4"
+                        "name": "#TF_style3"
                     }
                 }
             },
@@ -197918,13 +197918,13 @@
                         "model_player": "models/workshop/player/items/engineer/hwn2025_technicians_tunic/hwn2025_technicians_tunic.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_hwn2025_technicians_tunic_style1"
+                        "name": "#TF_style0"
                     },
                     "1": {
                         "model_player": "models/workshop/player/items/engineer/hwn2025_technicians_tunic_style2/hwn2025_technicians_tunic_style2.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_hwn2025_technicians_tunic_style2"
+                        "name": "#TF_style1"
                     }
                 }
             },
@@ -199490,26 +199490,26 @@
                         "model_player": "models/workshop/player/items/soldier/dec25_scrooge/dec25_scrooge.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_dec25_scrooge_style1"
+                        "name": "#TF_style0"
                     },
                     "1": {
                         "model_player": "models/workshop/player/items/soldier/dec25_scrooge_style1/dec25_scrooge_style1.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_dec25_scrooge_style2",
+                        "name": "#TF_style1",
                         "use_smoke_particle_effect": "0"
                     },
                     "2": {
                         "model_player": "models/workshop/player/items/soldier/dec25_scrooge_style2/dec25_scrooge_style2.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_dec25_scrooge_style3"
+                        "name": "#TF_style2"
                     },
                     "3": {
                         "model_player": "models/workshop/player/items/soldier/dec25_scrooge_style3/dec25_scrooge_style3.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_dec25_scrooge_style4"
+                        "name": "#TF_style3"
                     }
                 }
             }
@@ -199941,7 +199941,7 @@
                         "model_player": "models/workshop/player/items/engineer/sum26_chief_executor/sum26_chief_executor.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_sum26_chief_executor_style1",
+                        "name": "#TF_style0",
                         "additional_hidden_bodygroups": {
                             "hat": "1"
                         }
@@ -199950,7 +199950,7 @@
                         "model_player": "models/workshop/player/items/engineer/sum26_chief_executor_style2/sum26_chief_executor_style2.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_sum26_chief_executor_style2",
+                        "name": "#TF_style1",
                         "additional_hidden_bodygroups": {
                             "hat": "1"
                         }
@@ -199959,7 +199959,7 @@
                         "model_player": "models/workshop/player/items/engineer/sum26_chief_executor_style3/sum26_chief_executor_style3.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_sum26_chief_executor_style3"
+                        "name": "#TF_style2"
                     }
                 }
             },
@@ -199988,13 +199988,13 @@
                         "model_player": "models/workshop/player/items/engineer/sum26_vested_investors/sum26_vested_investors.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_sum26_vested_investors_style1"
+                        "name": "#TF_style0"
                     },
                     "1": {
                         "model_player": "models/workshop/player/items/engineer/sum26_vested_investors_style2/sum26_vested_investors_style2.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_sum26_vested_investors_style2"
+                        "name": "#TF_style1"
                     }
                 }
             },
@@ -200023,13 +200023,13 @@
                         "model_player": "models/workshop/player/items/engineer/sum26_standing_offer/sum26_standing_offer.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_sum26_standing_offer_style1"
+                        "name": "#TF_style0"
                     },
                     "1": {
                         "model_player": "models/workshop/player/items/engineer/sum26_standing_offer_style2/sum26_standing_offer_style2.mdl",
                         "skin_red": "0",
                         "skin_blu": "1",
-                        "name": "#TF_sum26_standing_offer_style2"
+                        "name": "#TF_style1"
                     }
                 }
             },
