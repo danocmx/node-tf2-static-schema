@@ -159910,6 +159910,136 @@
                 "basename": "models/workshop/player/items/all_class/lbtf2_highlander_participant/lbtf2_highlander_participant_%s.mdl"
             }
         },
+        "19162": {
+            "name": "Jump Fortress Playoffs Soldier 1st Place Summer 2026",
+            "prefab": "tournament_medal",
+            "item_name": "#TF_TournamentMedal_JF_Soldier_1st",
+            "item_description": "#TF_TournamentMedal_Summer2026",
+            "image_inventory": "backpack/workshop/player/items/all_class/jump_fortress_first/jump_fortress_first",
+            "model_player_per_class": {
+                "basename": "models/workshop/player/items/all_class/jump_fortress_first/jump_fortress_first_%s.mdl"
+            }
+        },
+        "19163": {
+            "name": "Jump Fortress Playoffs Soldier 2nd Place Summer 2026",
+            "prefab": "tournament_medal",
+            "item_name": "#TF_TournamentMedal_JF_Soldier_2nd",
+            "item_description": "#TF_TournamentMedal_Summer2026",
+            "image_inventory": "backpack/workshop/player/items/all_class/jump_fortress_second/jump_fortress_second",
+            "model_player_per_class": {
+                "basename": "models/workshop/player/items/all_class/jump_fortress_second/jump_fortress_second_%s.mdl"
+            }
+        },
+        "19164": {
+            "name": "Jump Fortress Playoffs Soldier 3rd Place Summer 2026",
+            "prefab": "tournament_medal",
+            "item_name": "#TF_TournamentMedal_JF_Soldier_3rd",
+            "item_description": "#TF_TournamentMedal_Summer2026",
+            "image_inventory": "backpack/workshop/player/items/all_class/jump_fortress_third/jump_fortress_third",
+            "model_player_per_class": {
+                "basename": "models/workshop/player/items/all_class/jump_fortress_third/jump_fortress_third_%s.mdl"
+            }
+        },
+        "19165": {
+            "name": "Jump Fortress Playoffs Soldier Participant Summer 2026",
+            "prefab": "tournament_medal",
+            "item_name": "#TF_TournamentMedal_JF_Soldier_Participant",
+            "item_description": "#TF_TournamentMedal_Summer2026",
+            "image_inventory": "backpack/workshop/player/items/all_class/jump_fortress_participant/jump_fortress_participant",
+            "model_player_per_class": {
+                "basename": "models/workshop/player/items/all_class/jump_fortress_participant/jump_fortress_participant_%s.mdl"
+            }
+        },
+        "19166": {
+            "name": "Jump Fortress Playoffs Demoman 1st Place Summer 2026",
+            "prefab": "tournament_medal",
+            "item_name": "#TF_TournamentMedal_JF_Demoman_1st",
+            "item_description": "#TF_TournamentMedal_Summer2026",
+            "image_inventory": "backpack/workshop/player/items/all_class/jump_fortress_first/jump_fortress_first",
+            "model_player_per_class": {
+                "basename": "models/workshop/player/items/all_class/jump_fortress_first/jump_fortress_first_%s.mdl"
+            }
+        },
+        "19167": {
+            "name": "Jump Fortress Playoffs Demoman 2nd Place Summer 2026",
+            "prefab": "tournament_medal",
+            "item_name": "#TF_TournamentMedal_JF_Demoman_2nd",
+            "item_description": "#TF_TournamentMedal_Summer2026",
+            "image_inventory": "backpack/workshop/player/items/all_class/jump_fortress_second/jump_fortress_second",
+            "model_player_per_class": {
+                "basename": "models/workshop/player/items/all_class/jump_fortress_second/jump_fortress_second_%s.mdl"
+            }
+        },
+        "19168": {
+            "name": "Jump Fortress Playoffs Demoman 3rd Place Summer 2026",
+            "prefab": "tournament_medal",
+            "item_name": "#TF_TournamentMedal_JF_Demoman_3rd",
+            "item_description": "#TF_TournamentMedal_Summer2026",
+            "image_inventory": "backpack/workshop/player/items/all_class/jump_fortress_third/jump_fortress_third",
+            "model_player_per_class": {
+                "basename": "models/workshop/player/items/all_class/jump_fortress_third/jump_fortress_third_%s.mdl"
+            }
+        },
+        "19169": {
+            "name": "Jump Fortress Playoffs Demoman Participant Summer 2026",
+            "prefab": "tournament_medal",
+            "item_name": "#TF_TournamentMedal_JF_Demoman_Participant",
+            "item_description": "#TF_TournamentMedal_Summer2026",
+            "image_inventory": "backpack/workshop/player/items/all_class/jump_fortress_participant/jump_fortress_participant",
+            "model_player_per_class": {
+                "basename": "models/workshop/player/items/all_class/jump_fortress_participant/jump_fortress_participant_%s.mdl"
+            }
+        },
+        "19170": {
+            "name": "Jump Fortress Playoffs Contributor Summer 2026",
+            "prefab": "tournament_medal",
+            "item_name": "#TF_TournamentMedal_JF_Contributor",
+            "item_description": "#TF_TournamentMedal_Summer2026",
+            "image_inventory": "backpack/workshop/player/items/all_class/jump_fortress_contributor/jump_fortress_contributor",
+            "model_player_per_class": {
+                "basename": "models/workshop/player/items/all_class/jump_fortress_contributor/jump_fortress_contributor_%s.mdl"
+            }
+        },
+        "19171": {
+            "name": "RGB 8 LAN 1st Place 2026",
+            "prefab": "tournament_medal",
+            "item_name": "#TF_TournamentMedal_RGB8_LAN_Gold",
+            "item_description": "#TF_TournamentMedal_2026",
+            "image_inventory": "backpack/workshop/player/items/all_class/rgb_lan_gold/rgb_lan_gold",
+            "model_player_per_class": {
+                "basename": "models/workshop/player/items/all_class/rgb_lan_gold/rgb_lan_gold_%s.mdl"
+            }
+        },
+        "19172": {
+            "name": "RGB 8 LAN 2nd Place 2026",
+            "prefab": "tournament_medal",
+            "item_name": "#TF_TournamentMedal_RGB8_LAN_Silver",
+            "item_description": "#TF_TournamentMedal_2026",
+            "image_inventory": "backpack/workshop/player/items/all_class/rgb_lan_silver/rgb_lan_silver",
+            "model_player_per_class": {
+                "basename": "models/workshop/player/items/all_class/rgb_lan_silver/rgb_lan_silver_%s.mdl"
+            }
+        },
+        "19173": {
+            "name": "RGB 8 LAN 3rd Place 2026",
+            "prefab": "tournament_medal",
+            "item_name": "#TF_TournamentMedal_RGB8_LAN_Bronze",
+            "item_description": "#TF_TournamentMedal_2026",
+            "image_inventory": "backpack/workshop/player/items/all_class/rgb_lan_bronze/rgb_lan_bronze",
+            "model_player_per_class": {
+                "basename": "models/workshop/player/items/all_class/rgb_lan_bronze/rgb_lan_bronze_%s.mdl"
+            }
+        },
+        "19174": {
+            "name": "RGB 8 LAN Participant 2026",
+            "prefab": "tournament_medal",
+            "item_name": "#TF_TournamentMedal_RGB8_LAN_Participant",
+            "item_description": "#TF_TournamentMedal_2026",
+            "image_inventory": "backpack/workshop/player/items/all_class/rgb_lan_participant/rgb_lan_participant",
+            "model_player_per_class": {
+                "basename": "models/workshop/player/items/all_class/rgb_lan_participant/rgb_lan_participant_%s.mdl"
+            }
+        },
         "20000": {
             "name": "Cosmetic Strangifier Recipe 1",
             "prefab": "dynamic_recipe_base",

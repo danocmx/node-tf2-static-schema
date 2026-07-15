@@ -458241,6 +458241,617 @@
         ]
     },
     {
+        "name": "Jump Fortress Playoffs Soldier 1st Place Summer 2026",
+        "defindex": 19162,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "Jump Fortress Playoffs Soldier 1st Place",
+        "item_description": "Summer 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/jump_fortress_first/jump_fortress_first_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/jump_fortress_first/jump_fortress_first",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/jump_fortress_first.af3cdf0e84c590a17b21b02eb9900e382b8f979c.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/jump_fortress_first_large.a7b3b716216f9b6f6f53b4b3e83700bf35d991c5.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "Jump Fortress Playoffs Soldier 2nd Place Summer 2026",
+        "defindex": 19163,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "Jump Fortress Playoffs Soldier 2nd Place",
+        "item_description": "Summer 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/jump_fortress_second/jump_fortress_second_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/jump_fortress_second/jump_fortress_second",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/jump_fortress_second.89b6fbfffe577ec20e1d7de25e674b57f2c0516c.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/jump_fortress_second_large.14f08bbc4e57de1d3eeba1a045eb41f8ab9375e9.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "Jump Fortress Playoffs Soldier 3rd Place Summer 2026",
+        "defindex": 19164,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "Jump Fortress Playoffs Soldier 3rd Place",
+        "item_description": "Summer 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/jump_fortress_third/jump_fortress_third_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/jump_fortress_third/jump_fortress_third",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/jump_fortress_third.bc26d3362b85286d6bc84dcdd4e9855f41e6e170.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/jump_fortress_third_large.974f537831b9dd5e5cc80809ae124a972468712b.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "Jump Fortress Playoffs Soldier Participant Summer 2026",
+        "defindex": 19165,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "Jump Fortress Playoffs Soldier Participant",
+        "item_description": "Summer 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/jump_fortress_participant/jump_fortress_participant_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/jump_fortress_participant/jump_fortress_participant",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/jump_fortress_participant.33086dfed425d4a68196f3a4299d793b35a14b7a.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/jump_fortress_participant_large.e5ededda0f8dabb48763c4c83a58f09fa2213da3.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "Jump Fortress Playoffs Demoman 1st Place Summer 2026",
+        "defindex": 19166,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "Jump Fortress Playoffs Demoman 1st Place",
+        "item_description": "Summer 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/jump_fortress_first/jump_fortress_first_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/jump_fortress_first/jump_fortress_first",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/jump_fortress_first.af3cdf0e84c590a17b21b02eb9900e382b8f979c.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/jump_fortress_first_large.a7b3b716216f9b6f6f53b4b3e83700bf35d991c5.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "Jump Fortress Playoffs Demoman 2nd Place Summer 2026",
+        "defindex": 19167,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "Jump Fortress Playoffs Demoman 2nd Place",
+        "item_description": "Summer 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/jump_fortress_second/jump_fortress_second_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/jump_fortress_second/jump_fortress_second",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/jump_fortress_second.89b6fbfffe577ec20e1d7de25e674b57f2c0516c.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/jump_fortress_second_large.14f08bbc4e57de1d3eeba1a045eb41f8ab9375e9.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "Jump Fortress Playoffs Demoman 3rd Place Summer 2026",
+        "defindex": 19168,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "Jump Fortress Playoffs Demoman 3rd Place",
+        "item_description": "Summer 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/jump_fortress_third/jump_fortress_third_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/jump_fortress_third/jump_fortress_third",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/jump_fortress_third.bc26d3362b85286d6bc84dcdd4e9855f41e6e170.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/jump_fortress_third_large.974f537831b9dd5e5cc80809ae124a972468712b.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "Jump Fortress Playoffs Demoman Participant Summer 2026",
+        "defindex": 19169,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "Jump Fortress Playoffs Demoman Participant",
+        "item_description": "Summer 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/jump_fortress_participant/jump_fortress_participant_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/jump_fortress_participant/jump_fortress_participant",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/jump_fortress_participant.33086dfed425d4a68196f3a4299d793b35a14b7a.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/jump_fortress_participant_large.e5ededda0f8dabb48763c4c83a58f09fa2213da3.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "Jump Fortress Playoffs Contributor Summer 2026",
+        "defindex": 19170,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "Jump Fortress Playoffs Contributor",
+        "item_description": "Summer 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/jump_fortress_contributor/jump_fortress_contributor_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/jump_fortress_contributor/jump_fortress_contributor",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/jump_fortress_contributor.8a5855c64e52b08e54e6e544aaa460602382d192.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/jump_fortress_contributor_large.be09adc11c20c38bf2bbebac582a25815eaeeca6.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "RGB 8 LAN 1st Place 2026",
+        "defindex": 19171,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "RGB 8 LAN 1st Place",
+        "item_description": "2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/rgb_lan_gold/rgb_lan_gold_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/rgb_lan_gold/rgb_lan_gold",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/rgb_lan_gold.7f23dfeb3f56a84ac2d6e13790ae392f19d4e562.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/rgb_lan_gold_large.7c352054cf654d1a3af6d92f0322117b177bee1c.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "RGB 8 LAN 2nd Place 2026",
+        "defindex": 19172,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "RGB 8 LAN 2nd Place",
+        "item_description": "2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/rgb_lan_silver/rgb_lan_silver_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/rgb_lan_silver/rgb_lan_silver",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/rgb_lan_silver.8f534233a4951253293809a8b0e8ec5663861d21.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/rgb_lan_silver_large.1500ea27b28e3ade4d7c14bf1db3ba7b412484d4.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "RGB 8 LAN 3rd Place 2026",
+        "defindex": 19173,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "RGB 8 LAN 3rd Place",
+        "item_description": "2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/rgb_lan_bronze/rgb_lan_bronze_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/rgb_lan_bronze/rgb_lan_bronze",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/rgb_lan_bronze.9c33ac163a68c70b4ae841f870052f4e0072bbc8.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/rgb_lan_bronze_large.4cca08402f295b17632275068d7336ac5d0d1a57.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "RGB 8 LAN Participant 2026",
+        "defindex": 19174,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "RGB 8 LAN Participant",
+        "item_description": "2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/rgb_lan_participant/rgb_lan_participant_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/rgb_lan_participant/rgb_lan_participant",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/rgb_lan_participant.94f6a4acb53d28ee2ac447acd70103c46d2f42f1.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/rgb_lan_participant_large.80127fe06015ff71e1fc76b17297434d2c666bec.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
         "name": "Cosmetic Strangifier Recipe 1",
         "defindex": 20000,
         "item_class": "tool",
@@ -529496,8 +530107,8 @@
         "image_inventory": "backpack/workshop/player/items/medic/sum26_bald_spotter/sum26_bald_spotter",
         "min_ilevel": 1,
         "max_ilevel": 100,
-        "image_url": "http://media.steampowered.com/apps/440/icons/sum26_bald_spotter.1897147c90d71593d1b553d5ada2b449225b2801.png",
-        "image_url_large": "http://media.steampowered.com/apps/440/icons/sum26_bald_spotter_large.0547a612136d7d40fc70cf467c94254edbd6ed1d.png",
+        "image_url": "http://media.steampowered.com/apps/440/icons/sum26_bald_spotter.f5c6063c6438a892fb354eca08aaa3fdc613bd4e.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/sum26_bald_spotter_large.91e324e10d93bbd6fc5450c50c919d2c4ec975e8.png",
         "drop_type": "none",
         "craft_class": "",
         "craft_material_type": "hat",
@@ -529550,8 +530161,8 @@
         "image_inventory": "backpack/workshop/player/items/medic/sum26_surgical_shroud/sum26_surgical_shroud",
         "min_ilevel": 1,
         "max_ilevel": 100,
-        "image_url": "http://media.steampowered.com/apps/440/icons/sum26_surgical_shroud.ee47b3fc212203cdd167afa6d8b20f8df33bda89.png",
-        "image_url_large": "http://media.steampowered.com/apps/440/icons/sum26_surgical_shroud_large.e658bfd3e13068119691ac2be72b4645b7addaee.png",
+        "image_url": "http://media.steampowered.com/apps/440/icons/sum26_surgical_shroud.d0a0ab080fd4e77302b740721ce741170bd05188.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/sum26_surgical_shroud_large.fdfe1cc0189a94374e5845e454f312af137da5d0.png",
         "drop_type": "none",
         "craft_class": "",
         "craft_material_type": "hat",
