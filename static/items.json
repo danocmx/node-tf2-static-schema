@@ -458852,6 +458852,382 @@
         ]
     },
     {
+        "name": "LAN Downunder 1st Place 2026",
+        "defindex": 19175,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "LAN Downunder 1st Place",
+        "item_description": "Melbourne, Australia, 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/downunder_1st/downunder_1st_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/downunder_1st/downunder_1st",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/downunder_1st.32fa2d58aa677aad9473e3a474cd99f8cc23d7d8.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/downunder_1st_large.80a56db88775f4296068e5fd5a921c928f23a0e1.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "LAN Downunder 2nd Place 2026",
+        "defindex": 19176,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "LAN Downunder 2nd Place",
+        "item_description": "Melbourne, Australia, 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/downunder_2nd/downunder_2nd_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/downunder_2nd/downunder_2nd",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/downunder_2nd.ac58e31bbffc79671fdc131c21fedf643af50eed.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/downunder_2nd_large.6fa1371dbda2d27ad97b179e77fa5d26dcf818cb.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "LAN Downunder 3rd Place 2026",
+        "defindex": 19177,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "LAN Downunder 3rd Place",
+        "item_description": "Melbourne, Australia, 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/downunder_3rd/downunder_3rd_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/downunder_3rd/downunder_3rd",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/downunder_3rd.6bcfcc51b84990593ca3bc771386de413c5e3c57.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/downunder_3rd_large.691a35c4e3c14b974f0041dbac7c6ab47dedc3db.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "LAN Downunder Participant 2026",
+        "defindex": 19178,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "LAN Downunder Participant",
+        "item_description": "Melbourne, Australia, 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/downunder_participant/downunder_participant_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/downunder_participant/downunder_participant",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/downunder_participant.ee4021302b283e1617096e5bfeabb8ad68038d3b.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/downunder_participant_large.3ab812159dedea53e771f5b855c1f15349c9fa27.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "CappingTV Summer Brawl 1st Place 2026",
+        "defindex": 19179,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "CappingTV Summer Brawl 1st Place",
+        "item_description": "Brisbane, Australia, 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/downunder_1st/downunder_1st_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/downunder_1st/downunder_1st",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/downunder_1st.32fa2d58aa677aad9473e3a474cd99f8cc23d7d8.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/downunder_1st_large.80a56db88775f4296068e5fd5a921c928f23a0e1.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "CappingTV Summer Brawl 2nd Place 2026",
+        "defindex": 19180,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "CappingTV Summer Brawl 2nd Place",
+        "item_description": "Brisbane, Australia, 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/downunder_2nd/downunder_2nd_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/downunder_2nd/downunder_2nd",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/downunder_2nd.ac58e31bbffc79671fdc131c21fedf643af50eed.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/downunder_2nd_large.6fa1371dbda2d27ad97b179e77fa5d26dcf818cb.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "CappingTV Summer Brawl 3rd Place 2026",
+        "defindex": 19181,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "CappingTV Summer Brawl 3rd Place",
+        "item_description": "Brisbane, Australia, 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/downunder_3rd/downunder_3rd_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/downunder_3rd/downunder_3rd",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/downunder_3rd.6bcfcc51b84990593ca3bc771386de413c5e3c57.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/downunder_3rd_large.691a35c4e3c14b974f0041dbac7c6ab47dedc3db.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "CappingTV Summer Brawl Participant 2026",
+        "defindex": 19182,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "CappingTV Summer Brawl Participant",
+        "item_description": "Brisbane, Australia, 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/downunder_participant/downunder_participant_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/downunder_participant/downunder_participant",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/downunder_participant.ee4021302b283e1617096e5bfeabb8ad68038d3b.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/downunder_participant_large.3ab812159dedea53e771f5b855c1f15349c9fa27.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
         "name": "Cosmetic Strangifier Recipe 1",
         "defindex": 20000,
         "item_class": "tool",
