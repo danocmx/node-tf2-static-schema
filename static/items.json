@@ -59438,7 +59438,7 @@
         "item_class": "map_token",
         "item_type_name": "Map Stamp",
         "item_name": "Map Stamp - Trainsawlaser",
-        "item_description": "An Attack/Defend Control Point Map\n\nHarlen 'UEAKCrash' Linke, Aeon 'Void' Bollig, ficool2, Ben 'UEAKSpearmint' Lombard, FissionMetroid101, Juniper, and Freyja\n\nPurchasing this item directly supports the creators of the Trainsawlaser community map.  Show your support today!",
+        "item_description": "A King of the Hill Map\n\nHarlen 'UEAKCrash' Linke, Aeon 'Void' Bollig, ficool2, Ben 'UEAKSpearmint' Lombard, FissionMetroid101, Juniper, and Freyja\n\nPurchasing this item directly supports the creators of the Trainsawlaser community map.  Show your support today!",
         "proper_name": false,
         "model_player": null,
         "item_quality": 6,
@@ -59466,7 +59466,7 @@
         "item_class": "map_token",
         "item_type_name": "Map Stamp",
         "item_name": "Map Stamp - Medi-Evil",
-        "item_description": "An Attack/Defend Control Point Map\n\nTristan 'Alox' Haguet, Christoph 'Gadget' Manschitz, Aeon 'Void' Bollig, and Freyja\n\nPurchasing this item directly supports the creators of the Medi-Evil community map.  Show your support today!",
+        "item_description": "A Capture the Flag Map\n\nTristan 'Alox' Haguet, Christoph 'Gadget' Manschitz, Aeon 'Void' Bollig, and Freyja\n\nPurchasing this item directly supports the creators of the Medi-Evil community map.  Show your support today!",
         "proper_name": false,
         "model_player": null,
         "item_quality": 6,
@@ -459963,6 +459963,7 @@
         "craft_class": "",
         "craft_material_type": "",
         "capabilities": {
+            "paintable": true,
             "can_gift_wrap": true,
             "can_craft_mark": true,
             "can_be_restored": true,
@@ -533827,6 +533828,19 @@
             "can_killstreakify": true,
             "can_consume": true
         },
+        "styles": [
+            {
+                "name": "No Bullets",
+                "additional_hidden_bodygroups": {
+                    "dogtags": 1,
+                    "grenades": 1,
+                    "bullets": 1
+                }
+            },
+            {
+                "name": "Bullets"
+            }
+        ],
         "attributes": [
             {
                 "name": "kill eater score type",
