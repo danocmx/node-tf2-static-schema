@@ -30,3 +30,9 @@ jobs:
           git commit -m "feat: schema update"
           git push origin master
         name: "Update schema files in the repository."
+
+      - env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release
+        name: "Release"
+
