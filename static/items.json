@@ -449610,7 +449610,7 @@
         "item_class": "tf_wearable",
         "item_type_name": "Tournament Medal",
         "item_name": "AsiaFortress Main 1st Place",
-        "item_description": "Awarded to the champions of AsiaFortress Spring 2025 Main",
+        "item_description": "Winter 2026",
         "proper_name": false,
         "item_slot": "misc",
         "model_player": "models/workshop/player/items/all_class/asiafortress_participant/asiafortress_participant_demo.mdl",
@@ -460003,7 +460003,7 @@
         "name": "Particle Mayhem 1 First Place",
         "defindex": 19189,
         "item_class": "tf_wearable",
-        "item_type_name": "Tournament Medal",
+        "item_type_name": "Community Medal",
         "item_name": "Particle Mayhem - 1st Place",
         "item_description": "Congrats! Through all of its trials and tribulations, your experiment has persisted where no others have. Wear this medal with pride, because you've earned it.",
         "proper_name": false,
@@ -460050,7 +460050,7 @@
         "name": "Particle Mayhem 1 Second Place",
         "defindex": 19190,
         "item_class": "tf_wearable",
-        "item_type_name": "Tournament Medal",
+        "item_type_name": "Community Medal",
         "item_name": "Particle Mayhem - 2nd Place",
         "item_description": "The effort gone into your experiment will be honored in the hearts of many witches, wizards, and scientists alike.",
         "proper_name": false,
@@ -460097,7 +460097,7 @@
         "name": "Particle Mayhem 1 Third Place",
         "defindex": 19191,
         "item_class": "tf_wearable",
-        "item_type_name": "Tournament Medal",
+        "item_type_name": "Community Medal",
         "item_name": "Particle Mayhem - 3rd Place",
         "item_description": "Though some may have surpassed it, you've still conjured up quite the concoction!",
         "proper_name": false,
@@ -460144,7 +460144,7 @@
         "name": "Particle Mayhem 1 Participant",
         "defindex": 19192,
         "item_class": "tf_wearable",
-        "item_type_name": "Tournament Medal",
+        "item_type_name": "Community Medal",
         "item_name": "Particle Mayhem - Participant",
         "item_description": "You joined many others in creating wacky, wonderful, horrific experiments. Now, after all this time, we believe this belongs to you.",
         "proper_name": false,
@@ -460191,7 +460191,7 @@
         "name": "Particle Mayhem 1 Staff",
         "defindex": 19193,
         "item_class": "tf_wearable",
-        "item_type_name": "Tournament Medal",
+        "item_type_name": "Community Medal",
         "item_name": "Particle Mayhem - Staff",
         "item_description": "The past meets the future and the future meets the past!",
         "proper_name": false,
@@ -460238,7 +460238,7 @@
         "name": "Particle Mayhem 2 First Place",
         "defindex": 19194,
         "item_class": "tf_wearable",
-        "item_type_name": "Tournament Medal",
+        "item_type_name": "Community Medal",
         "item_name": "Particle Mayhem 2 - 1st Place",
         "item_description": "Well done! Your mad experiment has not only triumphed over all other submissions, but it has also conquered all of time and space. We do wish you'd stop maniacally laughing now. It's making us uncomfortable.",
         "proper_name": false,
@@ -460285,7 +460285,7 @@
         "name": "Particle Mayhem 2 Second Place",
         "defindex": 19195,
         "item_class": "tf_wearable",
-        "item_type_name": "Tournament Medal",
+        "item_type_name": "Community Medal",
         "item_name": "Particle Mayhem 2 - 2nd Place",
         "item_description": "Your hard work has paid off, as the experiment you made has proven to be very stable! Good work, fellow particle enthusiast!",
         "proper_name": false,
@@ -460332,7 +460332,7 @@
         "name": "Particle Mayhem 2 Third Place",
         "defindex": 19196,
         "item_class": "tf_wearable",
-        "item_type_name": "Tournament Medal",
+        "item_type_name": "Community Medal",
         "item_name": "Particle Mayhem 2 - 3rd Place",
         "item_description": "Take pride, scientist! Your experiment has gone horribly right!",
         "proper_name": false,
@@ -460379,7 +460379,7 @@
         "name": "Particle Mayhem 2 Participant",
         "defindex": 19197,
         "item_class": "tf_wearable",
-        "item_type_name": "Tournament Medal",
+        "item_type_name": "Community Medal",
         "item_name": "Particle Mayhem 2 - Participant",
         "item_description": "For those of you that haven't mysteriously disappeared in a freak accident, we have good news! During a routine round of evidence-shredding, we managed to find a box full of these things. Take it, because it's yours now.",
         "proper_name": false,
@@ -460426,7 +460426,7 @@
         "name": "Particle Mayhem 2 Staff",
         "defindex": 19198,
         "item_class": "tf_wearable",
-        "item_type_name": "Tournament Medal",
+        "item_type_name": "Community Medal",
         "item_name": "Particle Mayhem 2 - Staff",
         "item_description": "This little guy makes for the best alarm clock.",
         "proper_name": false,
@@ -462182,6 +462182,694 @@
         "max_ilevel": 25,
         "image_url": "http://media.steampowered.com/apps/440/icons/ozfortress_highlander_participant.2d7f9dcd1af82c8a28e210653207b874bec0e63e.png",
         "image_url_large": "http://media.steampowered.com/apps/440/icons/ozfortress_highlander_participant_large.f864fba74015ee461680c43249056439a817ca7a.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "AsiaFortress Invite 1st Place Spring 2026",
+        "defindex": 19236,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "AsiaFortress Invite 1st Place",
+        "item_description": "Awarded to players of Powerpuff for AsiaFortress Spring 2026 Invite",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/asiafortress_gold/asiafortress_gold_demo.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/asiafortress_gold/asiafortress_gold",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/asiafortress_gold.b2c904501a82d51a854626f05596c59ad693f35f.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/asiafortress_gold_large.cba1b5c77b2832fa7290598b62d771edeed5f27e.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "AsiaFortress Invite 2nd Place Spring 2026",
+        "defindex": 19237,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "AsiaFortress Invite 2nd Place",
+        "item_description": "Awarded to players of Mabu Ravu for AsiaFortress Spring 2026 Invite",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/asiafortress_silver/asiafortress_silver_demo.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/asiafortress_silver/asiafortress_silver",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/asiafortress_silver.bbf356280f49e12b98b41039357a4073ec5070c2.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/asiafortress_silver_large.f91dcba7805a530c94fea48db99c206134755aec.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "AsiaFortress Invite 3rd Place Spring 2026",
+        "defindex": 19238,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "AsiaFortress Invite 3rd Place",
+        "item_description": "Awarded to players of 90+60=140 for AsiaFortress Spring 2026 Invite",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/asiafortress_bronze/asiafortress_bronze_demo.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/asiafortress_bronze/asiafortress_bronze",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/asiafortress_bronze.9cde9b38b8b547c29aee14ee4dd8bfce516b7429.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/asiafortress_bronze_large.56bc875a3f418501b7d2129b055da9cae57fb842.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "AsiaFortress Open 1st Place Spring 2026",
+        "defindex": 19239,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "AsiaFortress Open 1st Place",
+        "item_description": "Spring 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/asiafortress_participant/asiafortress_participant_demo.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/asiafortress_participant/asiafortress_liquid_gold",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/asiafortress_liquid_gold.7f8f466d4982e1dabd3f0e7683a79b8ec7755406.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/asiafortress_liquid_gold_large.a1026b3caf2aa79a9946dbbe3119cfb74ffd7c9f.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            },
+            {
+                "name": "set item tint RGB",
+                "class": "set_item_tint_rgb",
+                "value": 16433443
+            }
+        ]
+    },
+    {
+        "name": "AsiaFortress Open 2nd Place Spring 2026",
+        "defindex": 19240,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "AsiaFortress Open 2nd Place",
+        "item_description": "Spring 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/asiafortress_participant/asiafortress_participant_demo.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/asiafortress_participant/asiafortress_liquid_silver",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/asiafortress_liquid_silver.ac96edcfccbf0cf65cc76435b99e86bad5515644.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/asiafortress_liquid_silver_large.4b6f951eba58a301820a462c99c72773d38a49e2.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            },
+            {
+                "name": "set item tint RGB",
+                "class": "set_item_tint_rgb",
+                "value": 11645619
+            }
+        ]
+    },
+    {
+        "name": "AsiaFortress Open 3rd Place Spring 2026",
+        "defindex": 19241,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "AsiaFortress Open 3rd Place",
+        "item_description": "Spring 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/asiafortress_participant/asiafortress_participant_demo.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/asiafortress_participant/asiafortress_liquid_bronze",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/asiafortress_liquid_bronze.dd79d62380ad840ba43fd050afef7ff734a8d0d1.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/asiafortress_liquid_bronze_large.49a678f649c3fa86facd81dd6f751c7828218439.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            },
+            {
+                "name": "set item tint RGB",
+                "class": "set_item_tint_rgb",
+                "value": 6366476
+            }
+        ]
+    },
+    {
+        "name": "AsiaFortress Invite Participant Spring 2026",
+        "defindex": 19242,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "AsiaFortress Invite Participant",
+        "item_description": "Spring 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/asiafortress_participant/asiafortress_participant_demo.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/asiafortress_participant/asiafortress_white",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/asiafortress_white.13f78b119d48414d39543adae52046838379bb0d.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/asiafortress_white_large.ad9b8002b1e520451bcf131b647f0f49a496fcfc.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            },
+            {
+                "name": "set item tint RGB",
+                "class": "set_item_tint_rgb",
+                "value": 16777215
+            }
+        ]
+    },
+    {
+        "name": "AsiaFortress Open Participant Spring 2026",
+        "defindex": 19243,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "AsiaFortress Open Participant",
+        "item_description": "Spring 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/asiafortress_participant/asiafortress_participant_demo.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/asiafortress_participant/asiafortress_participant",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/asiafortress_participant.fb283f6a3b6c2f840b80bfac51d0101b92198ab6.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/asiafortress_participant_large.6f0cce5ff78d5a196adcc4e6d914e49aa7448dcc.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "AsiaFortress Highlander Invite 1st Place Summer 2026",
+        "defindex": 19244,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "AsiaFortress Highlander Invite 1st Place",
+        "item_description": "Awarded to players of GBM for AsiaFortress Highlander Summer 2026 Invite",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/asiafortress_cup_division3_gold/asiafortress_cup_division3_gold_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/asiafortress_cup_division3_gold/asiafortress_cup_division3_gold",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/asiafortress_cup_division3_gold.49b1ad4aaaab8736ed91bc706cddc6d468db202e.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/asiafortress_cup_division3_gold_large.3263c463062ac06cf23a485b94cb333d3beac468.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "AsiaFortress Highlander Invite 2nd Place Summer 2026",
+        "defindex": 19245,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "AsiaFortress Highlander Invite 2nd Place",
+        "item_description": "Awarded to players of Austrasia for AsiaFortress Highlander Summer 2026 Invite",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/asiafortress_cup_division3_silver/asiafortress_cup_division3_silver_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/asiafortress_cup_division3_silver/asiafortress_cup_division3_silver",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/asiafortress_cup_division3_silver.c45e77b2852b59a6e975293d90f367d4b9b59aaa.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/asiafortress_cup_division3_silver_large.17185b09df4884ea95f238a7892b3db040b25cc5.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "AsiaFortress Highlander Invite 3rd Place Summer 2026",
+        "defindex": 19246,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "AsiaFortress Highlander Invite 3rd Place",
+        "item_description": "Awarded to players of Minang Resto Padang for AsiaFortress Highlander Summer 2026 Invite",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/asiafortress_cup_division3_bronze/asiafortress_cup_division3_bronze_Scout.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/asiafortress_cup_division3_bronze/asiafortress_cup_division3_bronze",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/asiafortress_cup_division3_bronze.bb50f5e2fccbc1d110c9fc6de3cfd26f29194c8b.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/asiafortress_cup_division3_bronze_large.ab847f3d2f1a86e717cffc15fdbd06491b1ec942.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "name": "AsiaFortress Highlander Invite Participant Summer 2026",
+        "defindex": 19247,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "AsiaFortress Highlander Invite Participant",
+        "item_description": "Summer 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/asiafortress_participant/asiafortress_participant_demo.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/asiafortress_participant/asiafortress_white",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/asiafortress_white.13f78b119d48414d39543adae52046838379bb0d.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/asiafortress_white_large.ad9b8002b1e520451bcf131b647f0f49a496fcfc.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            },
+            {
+                "name": "set item tint RGB",
+                "class": "set_item_tint_rgb",
+                "value": 16777215
+            }
+        ]
+    },
+    {
+        "name": "AsiaFortress Highlander Open 1st Place Summer 2026",
+        "defindex": 19248,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "AsiaFortress Highlander Open 1st Place",
+        "item_description": "Summer 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/asiafortress_participant/asiafortress_participant_demo.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/asiafortress_participant/asiafortress_liquid_gold",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/asiafortress_liquid_gold.7f8f466d4982e1dabd3f0e7683a79b8ec7755406.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/asiafortress_liquid_gold_large.a1026b3caf2aa79a9946dbbe3119cfb74ffd7c9f.png",
+        "drop_type": "none",
+        "craft_class": "",
+        "craft_material_type": "",
+        "capabilities": {
+            "can_gift_wrap": true,
+            "can_craft_mark": true,
+            "can_be_restored": true,
+            "strange_parts": true,
+            "can_card_upgrade": true,
+            "can_strangify": true,
+            "can_killstreakify": true,
+            "can_consume": true
+        },
+        "attributes": [
+            {
+                "name": "kill eater score type",
+                "class": "kill_eater_score_type",
+                "value": 64
+            },
+            {
+                "name": "kill eater kill type",
+                "class": "kill_eater_kill_type",
+                "value": 64
+            },
+            {
+                "name": "cannot trade",
+                "class": "cannot_trade",
+                "value": 1
+            },
+            {
+                "name": "set item tint RGB",
+                "class": "set_item_tint_rgb",
+                "value": 16433443
+            }
+        ]
+    },
+    {
+        "name": "AsiaFortress Highlander Open Participant Summer 2026",
+        "defindex": 19249,
+        "item_class": "tf_wearable",
+        "item_type_name": "Tournament Medal",
+        "item_name": "AsiaFortress Highlander Open Participant",
+        "item_description": "Summer 2026",
+        "proper_name": false,
+        "item_slot": "misc",
+        "model_player": "models/workshop/player/items/all_class/asiafortress_participant/asiafortress_participant_demo.mdl",
+        "item_quality": 6,
+        "image_inventory": "backpack/workshop/player/items/all_class/asiafortress_participant/asiafortress_participant",
+        "min_ilevel": 25,
+        "max_ilevel": 25,
+        "image_url": "http://media.steampowered.com/apps/440/icons/asiafortress_participant.fb283f6a3b6c2f840b80bfac51d0101b92198ab6.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/asiafortress_participant_large.6f0cce5ff78d5a196adcc4e6d914e49aa7448dcc.png",
         "drop_type": "none",
         "craft_class": "",
         "craft_material_type": "",
@@ -473383,8 +474071,8 @@
         "image_inventory": "backpack/workshop/player/items/scout/hw2013_horrifying_hound_hood/hw2013_horrifying_hound_hood",
         "min_ilevel": 1,
         "max_ilevel": 100,
-        "image_url": "http://media.steampowered.com/apps/440/icons/hw2013_horrifying_hound_hood.6983624602c5185875ac644fea090040cbd4cb34.png",
-        "image_url_large": "http://media.steampowered.com/apps/440/icons/hw2013_horrifying_hound_hood_large.575c374d1f3cedbb55d7dab1f988892503dfbaa2.png",
+        "image_url": "http://media.steampowered.com/apps/440/icons/hw2013_horrifying_hound_hood.393b789d0dc15bda7dca9a23bb82c12797bd5c43.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/hw2013_horrifying_hound_hood_large.6ae0f677e158ed28df33fc93f5ac454dc96ecd58.png",
         "drop_type": "none",
         "item_set": "hw2013_scout_dog",
         "holiday_restriction": "halloween_or_fullmoon",
@@ -473430,8 +474118,8 @@
         "image_inventory": "backpack/workshop/player/items/scout/hw2013_terrifying_terrier_trousers/hw2013_terrifying_terrier_trousers",
         "min_ilevel": 1,
         "max_ilevel": 100,
-        "image_url": "http://media.steampowered.com/apps/440/icons/hw2013_terrifying_terrier_trousers.77bd6d7094e21ef026e6757ae3e92c1c2b5b394f.png",
-        "image_url_large": "http://media.steampowered.com/apps/440/icons/hw2013_terrifying_terrier_trousers_large.538577cf0777b28cefeb85098dbcef7d2fdb1db5.png",
+        "image_url": "http://media.steampowered.com/apps/440/icons/hw2013_terrifying_terrier_trousers.a26eedcfd66997dcc5b48962a719ebd98659267b.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/hw2013_terrifying_terrier_trousers_large.2e04d96df296ad85e36a569969c2f9749407f287.png",
         "drop_type": "none",
         "item_set": "hw2013_scout_dog",
         "holiday_restriction": "halloween_or_fullmoon",
@@ -474320,8 +475008,8 @@
         "image_inventory": "backpack/workshop/player/items/medic/hw2013_moon_boots/hw2013_moon_boots",
         "min_ilevel": 1,
         "max_ilevel": 100,
-        "image_url": "http://media.steampowered.com/apps/440/icons/hw2013_moon_boots.52515216ecedbd9b5c3365c86a44276f436398e4.png",
-        "image_url_large": "http://media.steampowered.com/apps/440/icons/hw2013_moon_boots_large.d59539bd77395beb7b65fae73a9bf361148da03d.png",
+        "image_url": "http://media.steampowered.com/apps/440/icons/hw2013_moon_boots.6fdf072e9d9aaa5901b7ac07f476cb640d2ec57f.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/hw2013_moon_boots_large.be7b66c8b1f287ccfc7ab5bcfadd9a5e28254c0e.png",
         "drop_type": "none",
         "item_set": "hw2013_medic_space_surgeon",
         "holiday_restriction": "halloween_or_fullmoon",
@@ -474366,8 +475054,8 @@
         "image_inventory": "backpack/workshop/player/items/medic/hw2013_spacemans_suit/hw2013_spacemans_suit",
         "min_ilevel": 1,
         "max_ilevel": 100,
-        "image_url": "http://media.steampowered.com/apps/440/icons/hw2013_spacemans_suit.527dbad11170fe8425fe2a95b44f48cb3d3c1293.png",
-        "image_url_large": "http://media.steampowered.com/apps/440/icons/hw2013_spacemans_suit_large.c4c2f289b8abdb79ca2fec3193d1a381142ca66a.png",
+        "image_url": "http://media.steampowered.com/apps/440/icons/hw2013_spacemans_suit.3ae5929e4012f15c462cf41ccf99cd9ad22ca43e.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/hw2013_spacemans_suit_large.2fb88f0b23c96bf564f1efe97b30d1ecdd596fee.png",
         "drop_type": "none",
         "item_set": "hw2013_medic_space_surgeon",
         "holiday_restriction": "halloween_or_fullmoon",
@@ -534062,7 +534750,7 @@
         "name": "High Caliber Earner",
         "defindex": 31640,
         "item_class": "tf_wearable",
-        "item_type_name": "Shirt",
+        "item_type_name": "Jacket",
         "item_name": "High Caliber Earner",
         "proper_name": false,
         "item_slot": "misc",
@@ -534729,8 +535417,8 @@
         "image_inventory": "backpack/workshop/player/items/spy/hwn2026_bounty_hunters_brim/hwn2026_bounty_hunters_brim",
         "min_ilevel": 1,
         "max_ilevel": 100,
-        "image_url": "http://media.steampowered.com/apps/440/icons/hwn2026_bounty_hunters_brim.9aa87d5b215cbd2a666bc91b6bc269193c9344ad.png",
-        "image_url_large": "http://media.steampowered.com/apps/440/icons/hwn2026_bounty_hunters_brim_large.de6a0552fedaa953f0a4e9ec2b3dbce472eaf68f.png",
+        "image_url": "http://media.steampowered.com/apps/440/icons/hwn2026_bounty_hunters_brim.c2bbf40863766a6113f5975fc642b8da9a619e1d.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/hwn2026_bounty_hunters_brim_large.9f54f8dcaa8c2d906d19b09862c15eb4045d8639.png",
         "drop_type": "none",
         "craft_class": "",
         "craft_material_type": "hat",
