@@ -25255,8 +25255,8 @@
         "image_inventory": "backpack/workshop/player/items/sniper/xms_sniper_commandobackpack/xms_sniper_commandobackpack",
         "min_ilevel": 10,
         "max_ilevel": 10,
-        "image_url": "http://media.steampowered.com/apps/440/icons/xms_sniper_commandobackpack.925aa14c761949fd6e421f63ad5dede823488bcc.png",
-        "image_url_large": "http://media.steampowered.com/apps/440/icons/xms_sniper_commandobackpack_large.d819ef4e2b8b1acff348071b61ea1c5f3d952e30.png",
+        "image_url": "http://media.steampowered.com/apps/440/icons/xms_sniper_commandobackpack.2d45d8a9e9e930329a2188f8571a2000a439f2a7.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/xms_sniper_commandobackpack_large.15e89c023fdeb5c0e08c20c5dfabb77e90cc91ec.png",
         "craft_class": "weapon",
         "craft_material_type": "weapon",
         "capabilities": {
@@ -534726,10 +534726,10 @@
         },
         "styles": [
             {
-                "name": "Style 1"
+                "name": "Paint Band"
             },
             {
-                "name": "Style 2"
+                "name": "Paint Hat"
             }
         ],
         "used_by_classes": ["Heavy"],
@@ -535390,6 +535390,17 @@
             "can_killstreakify": true,
             "can_consume": true
         },
+        "styles": [
+            {
+                "name": "Grenades"
+            },
+            {
+                "name": "No Grenades",
+                "additional_hidden_bodygroups": {
+                    "grenades": 1
+                }
+            }
+        ],
         "used_by_classes": ["Soldier"],
         "attributes": [
             {
@@ -535417,8 +535428,8 @@
         "image_inventory": "backpack/workshop/player/items/spy/hwn2026_bounty_hunters_brim/hwn2026_bounty_hunters_brim",
         "min_ilevel": 1,
         "max_ilevel": 100,
-        "image_url": "http://media.steampowered.com/apps/440/icons/hwn2026_bounty_hunters_brim.c2bbf40863766a6113f5975fc642b8da9a619e1d.png",
-        "image_url_large": "http://media.steampowered.com/apps/440/icons/hwn2026_bounty_hunters_brim_large.9f54f8dcaa8c2d906d19b09862c15eb4045d8639.png",
+        "image_url": "http://media.steampowered.com/apps/440/icons/hwn2026_bounty_hunters_brim.2b50d94ec708c432fff8d2a4851a435658262703.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/hwn2026_bounty_hunters_brim_large.3818a49d10eb4c6dff832abe68d52767e01c79b9.png",
         "drop_type": "none",
         "craft_class": "",
         "craft_material_type": "hat",
