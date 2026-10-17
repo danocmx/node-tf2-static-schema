@@ -25255,8 +25255,8 @@
         "image_inventory": "backpack/workshop/player/items/sniper/xms_sniper_commandobackpack/xms_sniper_commandobackpack",
         "min_ilevel": 10,
         "max_ilevel": 10,
-        "image_url": "http://media.steampowered.com/apps/440/icons/xms_sniper_commandobackpack.2d45d8a9e9e930329a2188f8571a2000a439f2a7.png",
-        "image_url_large": "http://media.steampowered.com/apps/440/icons/xms_sniper_commandobackpack_large.15e89c023fdeb5c0e08c20c5dfabb77e90cc91ec.png",
+        "image_url": "http://media.steampowered.com/apps/440/icons/xms_sniper_commandobackpack.8d0bd563a53ddd8b11efa23f2d0790a19820c047.png",
+        "image_url_large": "http://media.steampowered.com/apps/440/icons/xms_sniper_commandobackpack_large.fda6499c60e664d8165469ed741e7bdef212c6ba.png",
         "craft_class": "weapon",
         "craft_material_type": "weapon",
         "capabilities": {
